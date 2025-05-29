@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: theme('fontFamily.inter');
+  background: url('/textures/paper-fibre.jpg') #fff repeat;
+  background-size: cover;
+}
+
+.font-zen {
+  font-family: theme('fontFamily.zen');
+}
